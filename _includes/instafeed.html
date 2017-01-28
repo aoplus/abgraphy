@@ -1,0 +1,27 @@
+<section class="container container-instagram">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="col-md-12">
+            <!-- Generate such a widget at snapwidget.com for your name -->
+            <!-- Copy/paste code here or just update the snapwidget value at _config.yml -->
+            <script tyep="text/javascript" src="web-dist/js/instafeed.js"></script>
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: 'user',
+    userId: '1379036647',
+    clientId: 'b8526ce06a4f43efbfaa9048be1f0bd5',
+    accessToken: '1379036647.b8526ce.7c7a008a00ca4978a796884639558fe0',
+    resolution: 'standard_resolution',
+    template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /><span>{{likes}}{{comments}}</span></a>',
+    sortBy: 'most-recent',
+    limit: 32,
+    links: false
+  });
+  userFeed.run();
+</script>
+
+        </div>
+    </div>
+</section>
