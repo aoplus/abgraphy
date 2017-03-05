@@ -1,25 +1,42 @@
-# Site settings
-# in the templates available like {{ site.myvariable }}.
-title: Welcome to abgraphy. I freeze time for you.
-email: anush@abgraphy.com
-brand: AB Graphy
-headline: I freeze time.
-description: > # this means to ignore newlines until "baseurl:"
- New Site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.abgraphy.com" # the base hostname & protocol for your site
-copyright: 2017 AB Graphy, All Rights Reserved.
+# Site wide configuration
 
-# Build settings
-markdown: kramdown
+title: "www.abgraphy.com"
+description: ".. in making photographs alive"
+#if you modify locale please have a look at _data/messages.yml too
+locale: en
+#for meta name="author" :
+author: 
 
-# Account ids
-snapwidget: 325047
+#Target date in UTC / GMT
+countdown:
+  theme: blue
+  year: 2017
+  month: 3
+  day: 31
+  hour: 0
+  minute: 0
 
-# Contacts
-email: anushbulusu@abgraphy.com
-phone: +91 88840 00292
+# Site owner
+owner: 
+  name: anush bulusu
+  email: anush.bulusu@gmail.com
+  twitter:
+  google-plus:
+  instagramm: anushbulusu
+  facebook: abgraphy
+  aboutlink:
+    url: www.facebook.com/anushbulusu
+    caption: 
 
-# Tracking
-googleAnalitycsID: UA-91023860-1
 
+# Jekyll configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
