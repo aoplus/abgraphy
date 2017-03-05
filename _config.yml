@@ -5,7 +5,7 @@ description: ".. in making photographs alive"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
 #for meta name="author" :
-author: 
+author: aoplus
 
 #Target date in UTC / GMT
 countdown:
